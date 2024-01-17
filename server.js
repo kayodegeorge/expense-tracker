@@ -16,19 +16,6 @@ app.use(express.json())
 
 app.use('/api/v1/transactions', transactions)
 
-// Create Expense Schema
-// const expenseSchema = new mongoose.Schema({
-//   amount: Number,
-//   category: String,
-// })
-
-// const Expense = mongoose.model('Expense', expenseSchema)
-
-// // Middleware
-
-// app.use(bodyParser.json())
-// app.use(bodyParser.urlencoded({ extended: true }))
-
 const PORT = process.env.PORT || 5001
 
 // Start Server
